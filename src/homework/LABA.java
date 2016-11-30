@@ -142,15 +142,11 @@ String mon,laa;
 				if (c==2) c2.setVisible(true);
 				if (c==3) c3.setVisible(true);
 				
-				
-				
 				mon=txt.getText();
 				mo=Integer.parseInt(mon);
 				laa=money.getText();
 				la=Integer.parseInt(laa);
 				num=-1*mo;
-				
-				
 				
 				if (a==1 && b==1 && c==1) num+=(2*mo);
 				if (a==2 && b==2 && c==2) num+=(2*mo);
@@ -167,6 +163,7 @@ String mon,laa;
 				}
 			}
 		});
+		
 		btn.setBounds(373, 316, 190, 47);
 		frame.getContentPane().add(btn);
 	}
